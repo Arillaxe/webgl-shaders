@@ -29,7 +29,7 @@ void main() {
 
     d = 0.01 / d;
 
-    d = pow(d, 3.);
+    d = pow(d, 1.5);
 
     finalColor += col *= d;
   }
